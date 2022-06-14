@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    min-width: 320px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #041014;
+    color: white;
+    padding: 0 6em;
+    flex-wrap: wrap;
+}
+
+.image {
+    background-color: white;
+    padding: .5em;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    font-size: 18px;
+
+}
+
+
+img.resize {
+    max-width: 100%;
+    height: auto;
+}
+
